@@ -1,9 +1,4 @@
 <?php
-/*
- *
- * The first part handles application logic.
- *
- */
 
 include("config.php");
 session_start();
@@ -201,11 +196,7 @@ function db_rows_2_html($images, $storage_option, $hd_folder, $s3_client, $s3_bu
 ?>
 
 <?php
-/*
- *
- * The second part handles user interface.
- *
- */
+
 echo "<html>\n";
 echo "<head>\n";
 echo "<META http-equiv='Content-Type' content='text/html; charset=UTF-8'>\n";
