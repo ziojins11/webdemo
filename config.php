@@ -10,8 +10,8 @@ $instance_id = file_get_contents("http://instance-data/latest/meta-data/instance
 // Database connection parameters
 $db_hostname = "localhost";
 $db_database = "web_demo";
-$db_username = "username";
-$db_password = "password";
+$db_username = "username";      //change username to your database user
+$db_password = "password";      //change password to your database password
 $db = open_db_connection($db_hostname, $db_database, $db_username, $db_password);
 
 // Image upload options
