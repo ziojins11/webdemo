@@ -4,7 +4,7 @@ function check_file_type()
 	var filetype = filename.split('.').pop().toLowerCase();
 	if ((filetype != 'jpg') && (filetype != 'png') && (filetype != 'gif') && (filetype != 'jpeg'))
 	{
-		// not image file
+		// no image file
 		document.getElementById("submit_button").disabled = true;
 	}
 	else
